@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.is.cv.com.example.shapelist" //defining app id
         minSdkVersion 19 //defining min sdk
-        targetSdkVersion 33
+        targetSdkVersion 33 //target sdk
         versionCode 1
         versionName "1.0" //version
 
