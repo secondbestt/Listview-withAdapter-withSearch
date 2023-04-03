@@ -30,10 +30,10 @@ public class DetailActivity extends AppCompatActivity
 
     private void setValues()
     {
-        TextView tv = (TextView) findViewById(R.id.shapeName);
+        TextView tv1 = (TextView) findViewById(R.id.shapeName);
         ImageView iv = (ImageView) findViewById(R.id.shapeImage);
 
-        tv.setText(selectedShape.getName());
+        tv1.setText(selectedShape.getName());
         iv.setImageResource(selectedShape.getImage());
     }
 }
