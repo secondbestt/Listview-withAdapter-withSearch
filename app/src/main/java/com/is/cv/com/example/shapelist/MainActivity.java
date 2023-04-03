@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initSearchWidgets();
+        initSearchWidget();
         setupData();
         setUpList();
         setUpOnclickListener();
     }
 
-    private void initSearchWidgets()
+    private void initSearchWidget()
     {
         searchView = (SearchView) findViewById(R.id.shapeListSearchView);
 
